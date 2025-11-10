@@ -19,4 +19,8 @@ int main()
 {
     vector<int> arr = {1,2,3,4,5,6};
     reverseArray(arr);
+    for(auto v : arr)
+    {
+        cout << v << " " ;
+    }
 }
