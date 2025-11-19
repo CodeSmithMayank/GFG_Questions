@@ -16,5 +16,6 @@ int largest(vector<int> &arr)
 int main()
 {
     vector<int> arr{1, 8, 7, 56, 90};
-    largest(arr);
+    cout << largest(arr) << endl;
+    
 }
